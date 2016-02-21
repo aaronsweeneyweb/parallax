@@ -10,6 +10,8 @@
     overflow-y: auto;
     -webkit-perspective: 300px;
     perspective: 300px;
+    -webkit-perspective-origin-x: 100%;
+    perspective-origin-x: 100%;
   }
 
   .parallax__group {
@@ -26,6 +28,8 @@
     left: 0;
     right: 0;
     bottom: 0;
+    -webkit-transform-origin-x: 100%;
+    transform-origin-x: 100%;
   }
 
   .parallax__layer--fore {
